@@ -1,15 +1,15 @@
 # Project: 推箱子
-# Makefile created by Dev-C++ 5.6.3
+# Makefile created by Dev-C++ 5.11
 
 CPP      = g++.exe
 CC       = gcc.exe
 WINDRES  = windres.exe
 OBJ      = main.o map.o meun.o output.o judge.o circle.o
 LINKOBJ  = main.o map.o meun.o output.o judge.o circle.o
-LIBS     = -L"D:/DEV C++/Dev-Cpp/MinGW64/lib" -L"D:/DEV C++/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
-INCS     = -I"D:/DEV C++/Dev-Cpp/MinGW64/include" -I"D:/DEV C++/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/DEV C++/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include"
-CXXINCS  = -I"D:/DEV C++/Dev-Cpp/MinGW64/include" -I"D:/DEV C++/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/DEV C++/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include" -I"D:/DEV C++/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.8.1/include/c++"
-BIN      = 推箱子.exe
+LIBS     = -L"D:/Program Softwares/Dev C++/MinGW64/lib" -L"D:/Program Softwares/Dev C++/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"D:/Program Softwares/Dev C++/MinGW64/include" -I"D:/Program Softwares/Dev C++/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Softwares/Dev C++/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"D:/Program Softwares/Dev C++/MinGW64/include" -I"D:/Program Softwares/Dev C++/MinGW64/x86_64-w64-mingw32/include" -I"D:/Program Softwares/Dev C++/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Program Softwares/Dev C++/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = sokoban.exe
 CXXFLAGS = $(CXXINCS) 
 CFLAGS   = $(INCS) 
 RM       = rm.exe -f
