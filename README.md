@@ -2,7 +2,7 @@
 
 ### 简介
 
-一款简陋的C语言控制台推箱子小游戏
+大一学习C语言程序设计时编写的一款简陋的C语言控制台推箱子小游戏
 
 ### 开发环境
 
@@ -20,17 +20,4 @@ Windows系统下的DevC++
 
 ### 游戏效果图
 
-- 菜单界面
-
-<img src="E:\Pictures\markdown\QQ截图20200219031709.png" align=left style="zoom: 80%;"   >
-
-- 游戏界面
-
-<img src="E:\Pictures\markdown\QQ截图20200219032217.png" align=left style="zoom:80%;" >
-
-- 游戏退出界面
-
-<img src="E:\Pictures\markdown\QQ截图20200219032931.png" align=left  >
-
-### 其他
-
+![游戏示意](https://github.com/zkx98/Sokoban-C/blob/master/GIF.gif)
